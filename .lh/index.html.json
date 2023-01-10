@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 56,
+            "activePatchIndex": 66,
             "patches": [
                 {
                     "date": 1673279696043,
@@ -232,6 +232,46 @@
                 {
                     "date": 1673301587786,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\".style.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\">\n \t\n     <title>Première Agence Web Design à Lyon</title>\n </head>\n \n"
+                },
+                {
+                    "date": 1673335733350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Agence La Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"LAgence La Panthère, agence web paris, création logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335740174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"LAgence La Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo Panthère, agence web paris, création logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335752710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo  Panthère, agence web paris, création logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335758214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo  Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'A Panthère, agence web paris, création logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335763411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'A Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence Panthère, agence web paris, création logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335776254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence Panthère, agence web paris, création logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthèreréation logo paris\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335782744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthèreréation logo paris\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthère\" />\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335787885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthère\" />\n+\t\t\t\t<img src=\"img/logo.png\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthère\">\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673335938354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n <div class=\"bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax\" id=\"bloc-1-hero\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row tight-width-whitespace\">\n \t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<img src=\"img\" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthère\">\n+\t\t\t\t<img src=\"img \" class=\"center-block image-resize-mode\" width=\"100\" alt=\"Logo de l'Agence la Panthère\">\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white \">\n \t\t\t\t\tAgence La Panthère\n \t\t\t\t</h1>\n \t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1673339016128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,9 +157,9 @@\n \t\t\t\t\tNous avons créé une nouvelle identité visuelle pour un journal lyonnais.\n \t\t\t\t</p>\n \t\t\t</div>\n \t\t\t<div class=\"col-sm-6\">\n-\t\t\t\t<a href=\"#\" data-lightbox=\"img/.jpg\" data-gallery-id=\"gallery-1\" data-caption=\"Création d'un site web pour photographes\" data-frame=\"snapshot-lb\"><img src=\"img/2.jpg\" class=\"img-responsive portfolio-thumb\" alt=\"paris web design logo agence web meilleure agence, Création d'un site web pour photographes\" /></a>\n+\t\t\t\t<a href=\"#\" data-lightbox=\"img/P.jpg\" data-gallery-id=\"gallery-1\" data-caption=\"Création d'un site web pour photographes\" data-frame=\"snapshot-lb\"><img src=\"img/2.jpg\" class=\"img-responsive portfolio-thumb\" alt=\"paris web design logo agence web meilleure agence, Création d'un site web pour photographes\" /></a>\n \t\t\t\t<h3 class=\"mg-md text-center\">\n \t\t\t\t\tCréation d'un site web pour photographes\n \t\t\t\t</h3>\n \t\t\t\t<p class=\"text-center\">\n"
                 }
             ],
             "date": 1673279696043,
