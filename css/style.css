@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../../img/texture-paper.avif");
+    background: url("../img/texture-paper.avif");
     background-size: 280px 280px;
 }
 
@@ -301,17 +301,17 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand ../img {
+.navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
-.navbar-brand ../img[src$=svg] {
+.navbar-brand img[src$=svg] {
     min-width: 100px;
 }
 
-.nav-center .navbar-brand ../img {
+.nav-center .navbar-brand img {
     margin: 0;
 }
 
@@ -554,7 +554,7 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover ../img {
+a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -571,7 +571,7 @@ a[data-lightbox]:hover ../img {
     margin: 0 auto 0;
 }
 
-#lightbox-modal .modal-dialog ../img {
+#lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
 }
@@ -810,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../../img/dots-bg.avif");
+    background-image: url("../img/dots-bg.avif");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../../img/lines-h2-bg.avif");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("../../img/agence-la-panthere.avif");
+    background-image: url("../img/agence-la-panthere.avif");
 }
 
 .bg-presentation {
-    background-image: url("../../img/image-de-presentation.avif");
+    background-image: url("../img/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
@@ -961,7 +961,7 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand ../img {
+    .navbar-brand img {
         max-height: 40px;
         width: auto;
     }
@@ -1022,7 +1022,7 @@ h4 {
         width: 216px;
         height: 425px;
     }
-    .blocsapp-device-iphone5 ../img {
+    .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
     }
