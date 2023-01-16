@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1673337326840,
@@ -20,6 +20,10 @@
                 {
                     "date": 1673337638967,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -817,9 +817,9 @@\n     background-image: url(\"img/lines-h2-bg.png\");\r\n }\r\n \r\n .bg-banniere {\r\n-    background-image: url(\"img/agence-la-panthere.avi\");\r\n+    background-image: url(\"img/agence-la-panthere.avif\");\r\n }\r\n \r\n .bg-presentation {\r\n     background-image: url(\"img/image-de-presentation.bmp\");\r\n"
+                },
+                {
+                    "date": 1673688762110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n     right: 0;\r\n }\r\n \r\n .texture-paper::before {\r\n-    background: url(\"img/texture-paper.avif\");\r\n+    background: url(\".img/texture-paper.avif\");\r\n     background-size: 280px 280px;\r\n }\r\n \r\n .b-parallax {\r\n"
                 }
             ],
             "date": 1673337326840,
