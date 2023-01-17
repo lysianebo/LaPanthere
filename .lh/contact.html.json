@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -44,6 +44,10 @@
                 {
                     "date": 1673906330927,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n \t\t\t\t\t<div class=\"form-group\">\n \t\t\t\t\t\t<label>\n \t\t\t\t\t\t\tAdresse email\n \t\t\t\t\t\t</label>\n-\t\t\t\t\t\t<input id=\"email\" class=\"form-control\" type=\"email\" required />\n+\t\t\t\t\t\t<input id=\"email\" class=\"form-control\" type=\"email\" required>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"form-group\">\n \t\t\t\t\t\t<label>\n \t\t\t\t\t\t\tComment nous avez-vous connu ?\n"
+                },
+                {
+                    "date": 1673968429146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,36 +113,38 @@\n <!-- ScrollToTop Button END-->\n \n \n <!-- Footer - bloc-8 -->\n+<!-- Footer - bloc-8 -->\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t<div class=\"container bloc-sm\">\n \t\t<div class=\"row\">\n-\t\t\t<div class=\"col-sm-12\">\n-\t\t\t\t<p class=\"text-center white\">\n-\t\t\t\t\tAgence La Panthère - Agence web basée à Lyon.<br>\n-\t\t\t\t</p>\n-\t\t\t\t<div class=\"row row-no-gutters social\">\n-\t\t\t\t\t<div class=\"col-sm-3\">\n-\t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-twitter icon-md\"></span></a>\n+\t\t\t<p class=\"text-center white\">\n+\t\t\t\t\tAgence La Panthère - Agence web basée à Lyon\n+\t\t\t</p>\n+\t\t\t<div class=\"row row-no-gutters social \">\n+\t\t\t\t<div class=\"col-sm-3\">\n+\t\t\t\t\t<div class=\"text-center\">\n+\t\t\t\t\t\t<a class=\"social\" href=\"https://twitter.com/\"  target=\"_blank\"><span class=\"fa fa-twitter icon-md\"></span></a>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-3\">\n \t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-facebook icon-md\"></span></a>\n+\t\t\t\t\t\t\t<a class=\"social\" href=\"https://fr-fr.facebook.com/\"  target=\"_blank\"><span class=\"fa fa-facebook icon-md\"></span></a>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-3\">\n \t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-dribbble icon-md\"></span></a>\n+\t\t\t\t\t\t\t<a class=\"social\" href=\"https://dribbble.com/\" target=\"_blank\"><span class=\"fa fa-dribbble icon-md\"></span></a>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"col-sm-3\">\n \t\t\t\t\t\t<div class=\"text-center\">\n-\t\t\t\t\t\t\t<a class=\"social\" href=\"index.html\"><span class=\"fa fa-instagram icon-md\"></span></a>\n+\t\t\t\t\t\t\t<a class=\"social\" href=\"https://www.instagram.com/\" target=\"_blank\"><span class=\"fa fa-instagram icon-md\"></span></a>\n \t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n+\t\t\t\t\t\n+\t\t\t\t\t</div>\n \t\t\t\t</div>\n \t\t\t</div>\n \t\t</div>\n \t</div>\n"
                 }
             ],
             "date": 1673906175031,
