@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 17,
             "patches": [
                 {
                     "date": 1673920467638,
@@ -24,6 +24,58 @@
                 {
                     "date": 1673920661723,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4843,9 +4843,8 @@\n \n .nav>li>a {\n     position: relative;\n     display: block;\n-    width: 00px;\n     padding: 10px 15px\n }\n \n .nav>li>a:focus,\n"
+                },
+                {
+                    "date": 1673954177249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7684,9 +7684,9 @@\n     cursor: pointer;\n     background-color: #000\\9;\n     background-color: rgba(0, 0, 0, 0);\n     border: 1px solid #fff;\n-    border-radius: 10px\n+    border-radius: 10px;\n }\n \n .carousel-indicators .active {\n     width: 12px;\n"
+                },
+                {
+                    "date": 1673954183985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7684,9 +7684,9 @@\n     cursor: pointer;\n     background-color: #000\\9;\n     background-color: rgba(0, 0, 0, 0);\n     border: 1px solid #fff;\n-    border-radius: 10px;\n+    border-radius: 10px\n }\n \n .carousel-indicators .active {\n     width: 12px;\n"
+                },
+                {
+                    "date": 1673959475867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,8 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px\n+    \n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959486301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px\n-    \n+    width\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959495498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px\n-    width\n+    width: \n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959507761,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px\n-    width: \n+    width: 90%\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959514931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7157,10 +7157,11 @@\n }\n \n .modal-body {\n     position: relative;\n-    padding: 15px\n+    padding: 15px;\n     width: 90%\n+    \n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959522150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7159,9 +7159,9 @@\n .modal-body {\n     position: relative;\n     padding: 15px;\n     width: 90%\n-    \n+    height\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959528327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7159,9 +7159,9 @@\n .modal-body {\n     position: relative;\n     padding: 15px;\n     width: 90%\n-    height\n+    height:auto\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959533532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7159,9 +7159,9 @@\n .modal-body {\n     position: relative;\n     padding: 15px;\n     width: 90%\n-    height:auto\n+    height:auto;\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959540197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px;\n-    width: 90%\n+    width: 90%;\n     height:auto;\n }\n \n .modal-footer {\n"
+                },
+                {
+                    "date": 1673959573259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,10 +7158,9 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px;\n-    width: 90%;\n-    height:auto;\n+\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1673959584765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,8 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px;\n-\n }\n \n .modal-footer {\n     padding: 15px;\n"
                 }
             ],
             "date": 1673920467637,

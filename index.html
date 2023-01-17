@@ -23,7 +23,7 @@
 <div class="container bloc-sm">
 		<!-- <div class="navbar-header"> -->
 			<a class="navbar-brand" href="index.html">
-				<img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" height="40">
+				<img src="img/agence-la-panthere-monochrome.svg" alt="logo meilleure agence la panthere web design" height="40px">
 			</a>
 		<!-- <nav> -->
 			<nav class="navbar row">
@@ -145,12 +145,14 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				Nous travaillons avec beaucoup de clients, voici nos réalisations
+				<p>Nous travaillons avec beaucoup de clients, voici nos réalisations</p> 
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/Journal.avif" alt="refonte site web journal local" class="img-responsive portfolio-thumb"></a>
+				<a href="#" data-lightbox="img/journal.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+					<img class="img-responsive portfolio-thumb" src="img/Journal.avif" alt="Refonte site web journal local" width="270px" height="270px" loading="lazy" >
+				</a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -159,10 +161,12 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/Photographe.avif" loading="lazy" class="img-responsive portfolio-thumb" alt="Création d'une plateforme pour photographes"></a>
-				<h3 class="mg-md text-center">
-					Création d'un site web pour photographes
-				</h3>
+				<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+					<img src="img/photographe.jpg" class="img-responsive portfolio-thumb" alt="Création d'une plateforme pour photographes" width="270px" height="270px" loading="lazy">
+				</a>
+					<h3 class="mg-md text-center">
+						Création d'un site web pour photographes
+					</h3>
 				<p class="text-center">
 					Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 				</p>
@@ -170,7 +174,9 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/Voyageur.avif" loading="lazy" class="img-responsive portfolio-thumb" alt="Création d'un site web pour voyageur"></a>
+				<a href="#" data-lightbox="img/Voyageur.avif" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
+					<img src="img/Voyageur.avif" class="img-responsive portfolio-thumb" alt="Création d'un site web pour voyageur" width="270px" height="270px" loading="lazy">
+				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -179,7 +185,9 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/Mariage.avif" loading="lazy" class="img-responsive portfolio-thumb" alt="Création d'un site web pour agence de mariage"></a>
+				<a href="#" data-lightbox="img/Mariage.avif" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
+					<img src="img/Mariage.avif" class="img-responsive portfolio-thumb" alt="Création d'un site web pour agence de mariage" width="270px" height="270px" loading="lazy">
+				</a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -287,15 +295,15 @@
 <!-- Principal conteneur END -->
 <!-- Script -->
 
-<script defer src="./js/jquery-2.1.0.min.js"></script>
+<script async src="./js/jquery-2.1.0.min.js"></script>
 <script async src="./js/bootstrap.min.js"></script>
 <script async src="./js/blocs.js"></script>
-<script defer src="./js/jquery.touchSwipe.js"></script>
+<script async src="./js/jquery.touchSwipe.js"></script>
 <script async src="./js/gmaps.js"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9624825-3"></script>
-<script>
+<script async>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
