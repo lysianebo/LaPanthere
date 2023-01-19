@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -56,6 +56,22 @@
                 {
                     "date": 1673976396960,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \t<meta name=\"description\" content=\" A Lyon, La Panthère est une agence de web design dotée d’une équipe de graphistes talentueux. Après étude sérieuse de vos objectifs commerciaux, l’agence aide votre entreprise à créer son site internet unique pour se démarquer de vos concurrents.\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\">\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n-\t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"imgfavicon.jpg\">\n+\t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n"
+                },
+                {
+                    "date": 1674151374230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/bootstrap.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n"
+                },
+                {
+                    "date": 1674151379950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/bootstrap.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n"
+                },
+                {
+                    "date": 1674151388806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/style.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n \t\n     <title>Première Agence Web Design à Lyon Contact</title>\n"
+                },
+                {
+                    "date": 1674151395877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.css\">\n \t\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n"
                 }
             ],
             "date": 1673906175031,

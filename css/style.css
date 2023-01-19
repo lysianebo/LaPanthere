@@ -47,10 +47,6 @@ a:hover {
 .bloc-lg {
     padding: 100px 50px;
 }
-img, .navbar{
-    width: auto;
-    height: 50px;
-}
 
 .bloc-md {
     padding: 50px;
@@ -288,10 +284,7 @@ img, .navbar{
 }
 
 #bloc-1-hero h1 {
-    font-size: 36px;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(12, 11, 10), 0 0 0.2em rgb(227, 207, 72);
-    font-weight: 600;
-    
+    font-size: 32px;
 }
 
 .navbar {
@@ -683,8 +676,8 @@ a {
     margin: auto auto auto auto;
 }
 
- p {
-    font-size: 16px;
+p {
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
