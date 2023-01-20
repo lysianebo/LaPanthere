@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 28,
+            "activePatchIndex": 31,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -120,6 +120,18 @@
                 {
                     "date": 1674181357474,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,10 @@\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n \t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n-\t\t\t\t\t<li><a href=\"index#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n-\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n+\t\t\t\t\t<li><a href=\"index.html#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t<li><a href=\"index.html#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n \t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n \t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n"
+                },
+                {
+                    "date": 1674182137729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n <!doctype html>\n <html lang=\"fr\">\n <head>\n <!-- Google Tag Manager -->\n-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n \tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n \tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n \t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n-\t})(window,document,'script','dataLayer','GTM-PF6J7GS');</script>\n+\t})(window,document,'script','dataLayer','GTM-PF6J7GS');</script> -->\n \t<!-- End Google Tag Manager -->\n     <meta charset=\"utf-8\">\n \t<meta name=\"description\" content=\" A Lyon, La Panthère est une agence de web design dotée d’une équipe de graphistes talentueux. Après étude sérieuse de vos objectifs commerciaux, l’agence aide votre entreprise à créer son site internet unique pour se démarquer de vos concurrents.\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\">\n"
+                },
+                {
+                    "date": 1674182302331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,7 +164,14 @@\n <script defer src=\"js/jquery-2.1.0.min.js\"></script>\n <script defer src=\"js/bootstrap.min.js\"></script>\n <script defer src=\"js/blocs.min.js\"></script>\n <script defer src=\"js/jquery.touchSwipe.min.js\"></script>   \n-\n+<!-- Google tag (gtag.js) -->\n+<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\"></script>\n+<script>\n+window.dataLayer = window.dataLayer || [];\n+function gtag(){dataLayer.push(arguments);}\n+gtag('js', new Date());\n+gtag('config', 'UA-9624825-3');\n+</script> -->\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1674182329209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n     \n </head>\n <body>\n \t<!-- Google Tag Manager (noscript) -->\n-<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n-\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n+<!-- <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n+\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript> -->\n \t<!-- End Google Tag Manager (noscript) -->\n <!-- Principal conteneur -->\n <div class=\"page-container\">\n     \n"
                 }
             ],
             "date": 1673906175031,
