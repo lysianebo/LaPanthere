@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 19,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -84,6 +84,42 @@
                 {
                     "date": 1674178020769,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,12 @@\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n <body>\n-\t\n+\t<!-- Google Tag Manager (noscript) -->\n+<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n+\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n+\t<!-- End Google Tag Manager (noscript) -->\n <!-- Principal conteneur -->\n <div class=\"page-container\">\n     \n <!-- bloc-0 -->\n"
+                },
+                {
+                    "date": 1674179678355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,12 +14,12 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.min.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.min.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.css\">\n \t\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n"
+                },
+                {
+                    "date": 1674179793071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,8 +162,11 @@\n <!-- Footer - bloc-8 END -->\n \n </div>\n <!-- Principal conteneur END -->\n-    \n+<script defer src=\"js/jquery-2.1.0.min.js\"></script>\n+<script defer src=\"js/bootstrap.min.js\"></script>\n+<script defer src=\"js/blocs.min.js\"></script>\n+<script defer src=\"js/jquery.touchSwipe.min.js\"></script>   \n \n </body>\n </html>\n"
+                },
+                {
+                    "date": 1674179934897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,14 +42,12 @@\n \t\t\t\t</button>\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n-\t\t\t\t\t<li>\n-\t\t\t\t\t\t<a href=\"index.html\">Accueil</a>\n-\t\t\t\t\t</li>\n-\t\t\t\t\t<li>\n-\t\t\t\t\t<a href=\"contact.html\">Contact</a>\n-\t\t\t\t\t</li>\n+\t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n+\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n+\t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n \t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n \t</div>\n"
+                },
+                {
+                    "date": 1674180059893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,13 +42,13 @@\n \t\t\t\t</button>\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n-\t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n-\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n-\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n-\t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n-\t\t\t\t</ul>\n+\t\t\t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n+\t\t\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n+\t\t\t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n+\t\t\t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n \t</div>\n </div>\n"
+                },
+                {
+                    "date": 1674180552235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.min.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n \t\n@@ -42,13 +42,15 @@\n \t\t\t\t</button>\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n-\t\t\t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n-\t\t\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n-\t\t\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n-\t\t\t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n-\t\t\t\t\t\t</ul>\n+\t\t\t\t\t<li>\n+\t\t\t\t\t\t<a href=\"index.html\">Accueil</a>\n+\t\t\t\t\t</li>\n+\t\t\t\t\t<li>\n+\t\t\t\t\t<a href=\"contact.html\">Contact</a>\n+\t\t\t\t\t</li>\n+\t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n \t</div>\n </div>\n"
+                },
+                {
+                    "date": 1674181060634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,14 +42,12 @@\n \t\t\t\t</button>\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n-\t\t\t\t\t<li>\n-\t\t\t\t\t\t<a href=\"index.html\">Accueil</a>\n-\t\t\t\t\t</li>\n-\t\t\t\t\t<li>\n-\t\t\t\t\t<a href=\"contact.html\">Contact</a>\n-\t\t\t\t\t</li>\n+\t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n+\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n+\t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n \t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n \t</div>\n"
+                },
+                {
+                    "date": 1674181139354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap..css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n \t\n"
+                },
+                {
+                    "date": 1674181341540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \t<meta name=\"robots\" content=\"all\">\n     <link rel=\"canonical\" href=\"https://lysianebo.github.io/LaPanthere/\">\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap..css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.min.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n \t\n@@ -43,9 +43,9 @@\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n \t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n-\t\t\t\t\t<li><a href=\"#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t<li><a href=\"index#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n \t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n \t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n \t\t\t\t</ul>\n \t\t\t</div>\n"
+                },
+                {
+                    "date": 1674181357474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,10 @@\n \t\t\t</div>\n \t\t\t<div class=\"collapse navbar-collapse navbar-1 special-dropdown-nav\">\n \t\t\t\t<ul class=\"site-navigation nav navbar-nav\">\n \t\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n-\t\t\t\t\t<li><a href=\"index#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n-\t\t\t\t\t<li><a href=\"#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n+\t\t\t\t\t<li><a href=\"index.html#bloc-4-portfolio\" title=\"Portfolio\">Portfolio</a></li>\n+\t\t\t\t\t<li><a href=\"index.html#bloc-2-services\" title=\"Expertise\">Expertise</a></li>\n \t\t\t\t\t<li><a href=\"contact.html\" title=\"Contact\">contact</a></li>\n \t\t\t\t</ul>\n \t\t\t</div>\n \t\t</nav>\n"
                 }
             ],
             "date": 1673906175031,
