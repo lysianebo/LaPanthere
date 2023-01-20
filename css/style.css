@@ -4,7 +4,6 @@ body {
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -33,7 +32,6 @@ a:hover {
     background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
@@ -67,7 +65,6 @@ a:hover {
 .bg-br-edge,
 .bg-repeat {
     -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
 }
@@ -871,10 +868,6 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 70,
             "patches": [
                 {
                     "date": 1673920467638,
@@ -76,6 +76,218 @@
                 {
                     "date": 1673959584765,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7158,9 +7158,8 @@\n \n .modal-body {\n     position: relative;\n     padding: 15px;\n-\n }\n \n .modal-footer {\n     padding: 15px;\n"
+                },
+                {
+                    "date": 1674169378234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n \n html {\n     font-family: sans-serif;\n     -webkit-text-size-adjust: 100%;\n+    \n     -ms-text-size-adjust: 100%\n }\n \n body {\n"
+                },
+                {
+                    "date": 1674169387621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,9 @@\n \n html {\n     font-family: sans-serif;\n     -webkit-text-size-adjust: 100%;\n-    \n-    -ms-text-size-adjust: 100%\n+  -ms-text-size-adjust: 100%\n }\n \n body {\n     margin: 0\n"
+                },
+                {
+                    "date": 1674169394188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n html {\n     font-family: sans-serif;\n     -webkit-text-size-adjust: 100%;\n-  -ms-text-size-adjust: 100%\n+    -ms-text-size-adjust: 100%\n }\n \n body {\n     margin: 0\n"
+                },
+                {
+                    "date": 1674169404138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n \n html {\n     font-family: sans-serif;\n+    text-size-adjust: 100%;\n     -webkit-text-size-adjust: 100%;\n     -ms-text-size-adjust: 100%\n }\n \n"
+                },
+                {
+                    "date": 1674169411238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \n html {\n     font-family: sans-serif;\n     text-size-adjust: 100%;\n-    -webkit-text-size-adjust: 100%;\n+    /* -webkit-text-size-adjust: 100%; */\n     -ms-text-size-adjust: 100%\n }\n \n body {\n"
+                },
+                {
+                    "date": 1674169438001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n \n html {\n     font-family: sans-serif;\n-    text-size-adjust: 100%;\n+    /* text-size-adjust: 100%; */\n     /* -webkit-text-size-adjust: 100%; */\n     -ms-text-size-adjust: 100%\n }\n \n"
+                },
+                {
+                    "date": 1674169453530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,8 @@\n /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n \n html {\n     font-family: sans-serif;\n-    /* text-size-adjust: 100%; */\n-    /* -webkit-text-size-adjust: 100%; */\n     -ms-text-size-adjust: 100%\n }\n \n body {\n"
+                },
+                {
+                    "date": 1674169522670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7680,9 +7680,9 @@\n     height: 10px;\n     margin: 1px;\n     text-indent: -999px;\n     cursor: pointer;\n-    background-color: #000\\9;\n+    background-color: #000;\n     background-color: rgba(0, 0, 0, 0);\n     border: 1px solid #fff;\n     border-radius: 10px\n }\n"
+                },
+                {
+                    "date": 1674169564919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,8 +155,9 @@\n html input[type=button],\n input[type=reset],\n input[type=submit] {\n     -webkit-appearance: button;\n+    \n     cursor: pointer\n }\n \n button[disabled],\n"
+                },
+                {
+                    "date": 1674169596998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,9 +155,9 @@\n html input[type=button],\n input[type=reset],\n input[type=submit] {\n     -webkit-appearance: button;\n-    \n+    appearance: button;\n     cursor: pointer\n }\n \n button[disabled],\n@@ -191,8 +191,9 @@\n input[type=search] {\n     -webkit-box-sizing: content-box;\n     -moz-box-sizing: content-box;\n     box-sizing: content-box;\n+    appearance: textfield\n     -webkit-appearance: textfield\n }\n \n input[type=search]::-webkit-search-cancel-button,\n"
+                },
+                {
+                    "date": 1674169605330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,9 +191,9 @@\n input[type=search] {\n     -webkit-box-sizing: content-box;\n     -moz-box-sizing: content-box;\n     box-sizing: content-box;\n-    appearance: textfield\n+    appearance: textfield;\n     -webkit-appearance: textfield\n }\n \n input[type=search]::-webkit-search-cancel-button,\n"
+                },
+                {
+                    "date": 1674169627741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3193,8 +3193,9 @@\n }\n \n input[type=search] {\n     -webkit-appearance: none\n+    -webkit-appearance: none\n }\n \n @media screen and (-webkit-min-device-pixel-ratio:0) {\n     input[type=date].form-control,\n"
+                },
+                {
+                    "date": 1674169635127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3192,10 +3192,10 @@\n     height: auto\n }\n \n input[type=search] {\n+    appearance: none\n     -webkit-appearance: none\n-    -webkit-appearance: none\n }\n \n @media screen and (-webkit-min-device-pixel-ratio:0) {\n     input[type=date].form-control,\n"
+                },
+                {
+                    "date": 1674169655348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3192,9 +3192,9 @@\n     height: auto\n }\n \n input[type=search] {\n-    appearance: none\n+    appearance: none;\n     -webkit-appearance: none\n }\n \n @media screen and (-webkit-min-device-pixel-ratio:0) {\n@@ -7057,8 +7057,9 @@\n     opacity: .5\n }\n \n button.close {\n+    appearance: none;\n     -webkit-appearance: none;\n     padding: 0;\n     cursor: pointer;\n     background: 0 0;\n"
+                },
+                {
+                    "date": 1674169877847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4374,9 +4374,9 @@\n     text-decoration: none;\n     cursor: not-allowed;\n     background-color: transparent;\n     background-image: none;\n-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)\n+   \n }\n \n .open>.dropdown-menu {\n     display: block\n"
+                },
+                {
+                    "date": 1674169884983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4373,9 +4373,9 @@\n .dropdown-menu>.disabled>a:hover {\n     text-decoration: none;\n     cursor: not-allowed;\n     background-color: transparent;\n-    background-image: none;\n+    background-image: none\n    \n }\n \n .open>.dropdown-menu {\n"
+                },
+                {
+                    "date": 1674170122244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -273,9 +273,8 @@\n     }\n     h2,\n     h3,\n     p {\n-        orphans: 3;\n         widows: 3\n     }\n     h2,\n     h3 {\n"
+                },
+                {
+                    "date": 1674170187223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,14 +270,9 @@\n     }\n     img {\n         max-width: 100% !important\n     }\n-    h2,\n-    h3,\n-    p {\n-        widows: 3\n-    }\n-    h2,\n+     h2,\n     h3 {\n         page-break-after: avoid\n     }\n     .navbar {\n"
+                },
+                {
+                    "date": 1674170202272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,9 +270,14 @@\n     }\n     img {\n         max-width: 100% !important\n     }\n-     h2,\n+    h2,\n+    h3,\n+    p {\n+        widows: 3\n+    }\n+    h2,\n     h3 {\n         page-break-after: avoid\n     }\n     .navbar {\n"
+                },
+                {
+                    "date": 1674170207847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -270,14 +270,10 @@\n     }\n     img {\n         max-width: 100% !important\n     }\n+  \n     h2,\n-    h3,\n-    p {\n-        widows: 3\n-    }\n-    h2,\n     h3 {\n         page-break-after: avoid\n     }\n     .navbar {\n"
+                },
+                {
+                    "date": 1674170262832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -313,9 +313,9 @@\n     font-style: normal;\n     font-weight: 400;\n     line-height: 1;\n     -webkit-font-smoothing: antialiased;\n-    -moz-osx-font-smoothing: grayscale\n+   \n }\n \n .glyphicon-asterisk:before {\n     content: \"\\2a\"\n"
+                },
+                {
+                    "date": 1674170274699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -312,10 +312,9 @@\n     font-family: 'Glyphicons Halflings';\n     font-style: normal;\n     font-weight: 400;\n     line-height: 1;\n-    -webkit-font-smoothing: antialiased;\n-   \n+    -webkit-font-smoothing: antialiased;  \n }\n \n .glyphicon-asterisk:before {\n     content: \"\\2a\"\n"
+                },
+                {
+                    "date": 1674170422966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3156,9 +3156,9 @@\n     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);\n     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)\n }\n \n-.form-control::-moz-placeholder {\n+.form-control:: placeholder {\n     color: #999;\n     opacity: 1\n }\n \n"
+                },
+                {
+                    "date": 1674170462993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3156,9 +3156,9 @@\n     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);\n     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)\n }\n \n-.form-control:: placeholder {\n+.form-control::placeholder {\n     color: #999;\n     opacity: 1\n }\n \n"
+                },
+                {
+                    "date": 1674170510712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3156,14 +3156,14 @@\n     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);\n     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)\n }\n \n-.form-control::placeholder {\n+.form-control::-moz-placeholder {\n     color: #999;\n     opacity: 1\n }\n \n-.form-control:-ms-input-placeholder {\n+.form-control: input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674170525304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,9 +3161,9 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control: input-placeholder {\n+.form-control:: input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674170535712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,9 +3161,9 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control:: input-placeholder {\n+.form-control:-ms-input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674171151292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3245,9 +3245,9 @@\n .checkbox-inline input[type=checkbox],\n .radio input[type=radio],\n .radio-inline input[type=radio] {\n     position: absolute;\n-    margin-top: 4px\\9;\n+    margin-top: 4px;\n     margin-left: -20px\n }\n \n .checkbox+.checkbox,\n"
+                },
+                {
+                    "date": 1674171225287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3700,9 +3700,9 @@\n .btn.disabled,\n .btn[disabled],\n fieldset[disabled] .btn {\n     cursor: not-allowed;\n-    filter: alpha(opacity=65);\n+    \n     -webkit-box-shadow: none;\n     box-shadow: none;\n     opacity: .65\n }\n"
+                },
+                {
+                    "date": 1674171281554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3700,9 +3700,8 @@\n .btn.disabled,\n .btn[disabled],\n fieldset[disabled] .btn {\n     cursor: not-allowed;\n-    \n     -webkit-box-shadow: none;\n     box-shadow: none;\n     opacity: .65\n }\n@@ -6159,9 +6158,9 @@\n         background-position: 0 0\n     }\n }\n \n-@-o-keyframes progress-bar-stripes {\n+@keyframes progress-bar-stripes {\n     from {\n         background-position: 40px 0\n     }\n     to {\n"
+                },
+                {
+                    "date": 1674171322656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6268,9 +6268,9 @@\n }\n \n .media,\n .media-body {\n-    overflow: hidden;\n+    overflow: hidden\n     zoom: 1\n }\n \n .media-body {\n"
+                },
+                {
+                    "date": 1674171360300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6269,9 +6269,8 @@\n \n .media,\n .media-body {\n     overflow: hidden\n-    zoom: 1\n }\n \n .media-body {\n     width: 10000px\n@@ -7036,9 +7035,8 @@\n     font-weight: 700;\n     line-height: 1;\n     color: #000;\n     text-shadow: 0 1px 0 #fff;\n-    filter: alpha(opacity=20);\n     opacity: .2\n }\n \n .close:focus,\n"
+                },
+                {
+                    "date": 1674171383375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7043,9 +7043,8 @@\n .close:hover {\n     color: #000;\n     text-decoration: none;\n     cursor: pointer;\n-    filter: alpha(opacity=50);\n     opacity: .5\n }\n \n button.close {\n"
+                },
+                {
+                    "date": 1674171401675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7129,9 +7129,8 @@\n     opacity: 0\n }\n \n .modal-backdrop.in {\n-    filter: alpha(opacity=50);\n     opacity: .5\n }\n \n .modal-header {\n"
+                },
+                {
+                    "date": 1674171422228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7124,9 +7124,8 @@\n     background-color: #000\n }\n \n .modal-backdrop.fade {\n-    filter: alpha(opacity=0);\n     opacity: 0\n }\n \n .modal-backdrop.in {\n"
+                },
+                {
+                    "date": 1674171435465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7217,9 +7217,8 @@\n     word-break: normal;\n     word-spacing: normal;\n     word-wrap: normal;\n     white-space: normal;\n-    filter: alpha(opacity=0);\n     opacity: 0;\n     line-break: auto\n }\n \n"
+                },
+                {
+                    "date": 1674171497371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7580,9 +7580,8 @@\n     font-size: 20px;\n     color: #fff;\n     text-align: center;\n     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);\n-    filter: alpha(opacity=50);\n     opacity: .5\n }\n \n .carousel-control.left {\n"
+                },
+                {
+                    "date": 1674171511502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7607,9 +7607,8 @@\n .carousel-control:focus,\n .carousel-control:hover {\n     color: #fff;\n     text-decoration: none;\n-    filter: alpha(opacity=90);\n     outline: 0;\n     opacity: .9\n }\n \n"
+                },
+                {
+                    "date": 1674171529474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7222,9 +7222,8 @@\n     line-break: auto\n }\n \n .tooltip.in {\n-    filter: alpha(opacity=90);\n     opacity: .9\n }\n \n .tooltip.top {\n"
+                },
+                {
+                    "date": 1674171738674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7499,10 +7499,9 @@\n .carousel-inner>.item>img {\n     line-height: 1\n }\n \n-@media all and (transform-3d),\n-(-webkit-transform-3d) {\n+@media all  {\n     .carousel-inner>.item {\n         -webkit-transition: -webkit-transform .6s ease-in-out;\n         -o-transition: -o-transform .6s ease-in-out;\n         transition: transform .6s ease-in-out;\n"
+                },
+                {
+                    "date": 1674171801490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7586,9 +7586,9 @@\n     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));\n     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);\n+   \n     background-repeat: repeat-x\n }\n \n .carousel-control.right {\n"
+                },
+                {
+                    "date": 1674171811339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7586,9 +7586,9 @@\n     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));\n     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n-   \n+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);\n     background-repeat: repeat-x\n }\n \n .carousel-control.right {\n"
+                },
+                {
+                    "date": 1674171843706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7586,9 +7586,9 @@\n     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));\n     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);\n-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);\n+   \n     background-repeat: repeat-x\n }\n \n .carousel-control.right {\n"
+                },
+                {
+                    "date": 1674171878500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7597,9 +7597,9 @@\n     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));\n     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);\n+  \n     background-repeat: repeat-x\n }\n \n .carousel-control:focus,\n"
+                },
+                {
+                    "date": 1674171918234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7597,9 +7597,8 @@\n     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));\n     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);\n-  \n     background-repeat: repeat-x\n }\n \n .carousel-control:focus,\n@@ -7819,9 +7818,9 @@\n .affix {\n     position: fixed\n }\n \n-@-ms-viewport {\n+-ms-viewport {\n     width: device-width\n }\n \n .visible-lg,\n"
+                },
+                {
+                    "date": 1674171959280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7818,12 +7818,10 @@\n .affix {\n     position: fixed\n }\n \n--ms-viewport {\n-    width: device-width\n-}\n \n+\n .visible-lg,\n .visible-md,\n .visible-sm,\n .visible-xs {\n"
+                },
+                {
+                    "date": 1674171988858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7817,11 +7817,8 @@\n \n .affix {\n     position: fixed\n }\n-\n-\n-\n .visible-lg,\n .visible-md,\n .visible-sm,\n .visible-xs {\n"
+                },
+                {
+                    "date": 1674172608637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,9 +3161,9 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control:-ms-input-placeholder {\n+.form-control::-ms-input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674172624313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,9 +3161,9 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control::-ms-input-placeholder {\n+.form-control::input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674172652562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,9 +3161,9 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control::input-placeholder {\n+.form-control:input-placeholder {\n     color: #999\n }\n \n .form-control::-webkit-input-placeholder {\n"
+                },
+                {
+                    "date": 1674172673103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3161,11 +3161,8 @@\n     color: #999;\n     opacity: 1\n }\n \n-.form-control:input-placeholder {\n-    color: #999\n-}\n \n .form-control::-webkit-input-placeholder {\n     color: #999\n }\n"
+                },
+                {
+                    "date": 1674172688126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3160,10 +3160,8 @@\n .form-control::-moz-placeholder {\n     color: #999;\n     opacity: 1\n }\n-\n-\n .form-control::-webkit-input-placeholder {\n     color: #999\n }\n \n"
+                },
+                {
+                    "date": 1674172703426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3169,11 +3169,9 @@\n .form-control[readonly],\n fieldset[disabled] .form-control {\n     background-color: #eee;\n     opacity: 1\n-}\n-\n-.form-control[disabled],\n+}.form-control[disabled],\n fieldset[disabled] .form-control {\n     cursor: not-allowed\n }\n \n"
                 }
             ],
             "date": 1673920467637,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 16,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -72,6 +72,18 @@
                 {
                     "date": 1674151395877,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n \t<link rel=\"shortcut icon\" type=\"image/jpg\" href=\"img/favicon.jpg\">\n     \n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/bootstrap.css\">\n \t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/font-awesome.css\">\n-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/et-line.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/font-awesome.css\">\n+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/et-line.css\">\n \t\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n"
+                },
+                {
+                    "date": 1674177907678,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,14 @@\n <!doctype html>\n <html lang=\"fr\">\n <head>\n-\n+<!-- Google Tag Manager -->\n+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n+\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n+\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n+\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n+\t})(window,document,'script','dataLayer','GTM-PF6J7GS');</script>\n+\t<!-- End Google Tag Manager -->\n     <meta charset=\"utf-8\">\n \t<meta name=\"description\" content=\" A Lyon, La Panthère est une agence de web design dotée d’une équipe de graphistes talentueux. Après étude sérieuse de vos objectifs commerciaux, l’agence aide votre entreprise à créer son site internet unique pour se démarquer de vos concurrents.\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, viewport-fit=cover\">\n \t<meta name=\"robots\" content=\"all\">\n"
+                },
+                {
+                    "date": 1674178015029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n <body>\n+\t\n <!-- Principal conteneur -->\n <div class=\"page-container\">\n     \n <!-- bloc-0 -->\n"
+                },
+                {
+                    "date": 1674178020769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,12 @@\n     <title>Première Agence Web Design à Lyon Contact</title>\n     \n </head>\n <body>\n-\t\n+\t<!-- Google Tag Manager (noscript) -->\n+<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n+\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n+\t<!-- End Google Tag Manager (noscript) -->\n <!-- Principal conteneur -->\n <div class=\"page-container\">\n     \n <!-- bloc-0 -->\n"
                 }
             ],
             "date": 1673906175031,
