@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 38,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -136,6 +136,30 @@
                 {
                     "date": 1674183237106,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,13 +165,13 @@\n <script defer src=\"js/bootstrap.min.js\"></script>\n <script defer src=\"js/blocs.min.js\"></script>\n <script defer src=\"js/jquery.touchSwipe.min.js\"></script>   \n <!-- Google tag (gtag.js) -->\n-<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\"></script>\n+<!-- <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\"></script>\n <script>\n window.dataLayer = window.dataLayer || [];\n function gtag(){dataLayer.push(arguments);}\n gtag('js', new Date());\n gtag('config', 'UA-9624825-3');\n-</script> -->\n+</script> --> -->\n </body>\n </html>\n"
+                },
+                {
+                    "date": 1674217653717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,13 +105,9 @@\n \t\t\t\t\t\tEnvoyer\n \t\t\t\t\t</button>\n \t\t\t\t</form>\n \t\t\t</div>\n-\t\t\t<div class=\"col-sm-6\">\n-\t\t\t\t<p>\n-\t\t\t\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n-\t\t\t\t</p>\n-\t\t\t</div>\n+\t\t\t<\n \t\t</div>\n \t</div>\n </div>\n <!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674217663686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,9 +105,9 @@\n \t\t\t\t\t\tEnvoyer\n \t\t\t\t\t</button>\n \t\t\t\t</form>\n \t\t\t</div>\n-\t\t\t<\n+\t\t\t\n \t\t</div>\n \t</div>\n </div>\n <!-- bloc-7 END -->\n"
+                },
+                {
+                    "date": 1674217679227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,10 +114,14 @@\n \n <!-- ScrollToTop Button -->\n <a class=\"bloc-button btn btn-d scrollToTop\" onclick=\"scrollToTarget('1')\"><span class=\"fa fa-chevron-up\"></span></a>\n <!-- ScrollToTop Button END-->\n+<div class=\"col-sm-6\">\n+\t<p>\n+\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n+\t</p>\n+</div>\n \n-\n <!-- Footer - bloc-8 -->\n <!-- Footer - bloc-8 -->\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t<div class=\"container bloc-sm\">\n"
+                },
+                {
+                    "date": 1674217703386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -115,12 +115,12 @@\n <!-- ScrollToTop Button -->\n <a class=\"bloc-button btn btn-d scrollToTop\" onclick=\"scrollToTarget('1')\"><span class=\"fa fa-chevron-up\"></span></a>\n <!-- ScrollToTop Button END-->\n <div class=\"col-sm-6\">\n-\t<p>\n-\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n-\t</p>\n-</div>\n+\t\t\t\t<p>\n+\t\t\t\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n+\t\t\t\t</p>\n+\t\t\t</div>\n \n <!-- Footer - bloc-8 -->\n <!-- Footer - bloc-8 -->\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n"
+                },
+                {
+                    "date": 1674217716664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,14 +114,10 @@\n \n <!-- ScrollToTop Button -->\n <a class=\"bloc-button btn btn-d scrollToTop\" onclick=\"scrollToTarget('1')\"><span class=\"fa fa-chevron-up\"></span></a>\n <!-- ScrollToTop Button END-->\n-<div class=\"col-sm-6\">\n-\t\t\t\t<p>\n-\t\t\t\t\tcontact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>\n-\t\t\t\t</p>\n-\t\t\t</div>\n \n+\n <!-- Footer - bloc-8 -->\n <!-- Footer - bloc-8 -->\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t<div class=\"container bloc-sm\">\n"
+                },
+                {
+                    "date": 1674217725623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t<div class=\"container bloc-sm\">\n \t\t<div class=\"row\">\n \t\t\t<p class=\"text-center white\">\n-\t\t\t\t\tAgence La Panthère \n+\t\t\t\t\tAgence La Panthère\n \t\t\t</p>\n \t\t\t<div class=\"row row-no-gutters social \">\n \t\t\t\t<div class=\"col-sm-3\">\n \t\t\t\t\t<div class=\"text-center\">\n"
                 }
             ],
             "date": 1673906175031,

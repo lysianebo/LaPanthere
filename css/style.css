@@ -40,10 +40,14 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    width: 95%;
+    margin: auto;
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+   
+    padding: 100px 0px;
+  
 }
 
 .bloc-md {
@@ -581,7 +585,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: -10px;
 }
 
 .close-lightbox {
@@ -651,13 +655,8 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
 .container {
     max-width: 1000px;
-}
-
-.hero-bloc-text {
-    font-size: 38px;
 }
 
 .hero-bloc-text-sub {
@@ -675,14 +674,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
-
-.tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+p.temoignage{
+    font-style: italic;
+    font-weight: 600;
 }
-
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -703,8 +700,11 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin: auto 5%;
+    max-width: 900px;
 }
 
 h3 {
@@ -738,7 +738,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+   margin: 24px auto;
 }
 
 .portfolio-row {
@@ -1029,8 +1029,4 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
+
