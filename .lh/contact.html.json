@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 31,
+            "activePatchIndex": 32,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -132,6 +132,10 @@
                 {
                     "date": 1674182329209,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n     \n </head>\n <body>\n \t<!-- Google Tag Manager (noscript) -->\n-<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n-\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n+<!-- <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PF6J7GS\"\n+\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript> -->\n \t<!-- End Google Tag Manager (noscript) -->\n <!-- Principal conteneur -->\n <div class=\"page-container\">\n     \n"
+                },
+                {
+                    "date": 1674183237106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,13 +165,13 @@\n <script defer src=\"js/bootstrap.min.js\"></script>\n <script defer src=\"js/blocs.min.js\"></script>\n <script defer src=\"js/jquery.touchSwipe.min.js\"></script>   \n <!-- Google tag (gtag.js) -->\n-<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\"></script>\n+<!-- <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-9624825-3\"></script>\n <script>\n window.dataLayer = window.dataLayer || [];\n function gtag(){dataLayer.push(arguments);}\n gtag('js', new Date());\n gtag('config', 'UA-9624825-3');\n-</script> -->\n+</script> --> -->\n </body>\n </html>\n"
                 }
             ],
             "date": 1673906175031,
