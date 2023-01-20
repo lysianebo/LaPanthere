@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".htaccess",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1674241644398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1674241644398,
+            "name": "Commit-0",
+            "content": "RewriteEngine on\n\n# Redirect to domain without www.\nRewriteCond %{HTTPS} off\nRewriteCond %{HTTP_HOST} ^www\\.(.*)$ [NC]\nRewriteRule .* http://%1%{REQUEST_URI} [R=301,L]\n# Same for HTTPS:\nRewriteCond %{HTTPS} on\nRewriteCond %{HTTP_HOST} ^www\\.(.*)$ [NC]\nRewriteRule .* https://%1%{REQUEST_URI} [R=301,L]\n\n# Redirect to another domain: lysianebo.github.io.\nRewriteCond %{HTTPS} off\nRewriteCond %{HTTP_HOST} !^(www\\.)?lysianebo\\.github\\.io$ [NC]\nRewriteRule .* http://lysianebo.github.io%{REQUEST_URI} [R=301,L]\n# Same for HTTPS:\nRewriteCond %{HTTPS} on\nRewriteCond %{HTTP_HOST} !^(www\\.)?lysianebo\\.github\\.io$ [NC]\nRewriteRule .* https://lysianebo.github.io%{REQUEST_URI} [R=301,L]\n\n# Stop hotlinking.\nRewriteCond %{HTTP_REFERER} !^$\nRewriteCond %{HTTP_REFERER} ^https?://([^/]+)/ [NC]\nRewriteCond %1#%{HTTP_HOST} !^(.+)#\\1$\nRewriteRule \\.(jpg|jpeg|png|gif|swf|svg)$ - [NC,F,L]\n\n# Add Caching.\n<FilesMatch \".(ico|jpg|jpeg|png|gif|js|css|swf)$\">\n    Header set Cache-Control \"max-age=86400\"\n</FilesMatch>\n\n# Compress text, html, javascript, css, xml:\nAddOutputFilterByType DEFLATE text/plain\nAddOutputFilterByType DEFLATE text/html\nAddOutputFilterByType DEFLATE text/xml\nAddOutputFilterByType DEFLATE text/css\nAddOutputFilterByType DEFLATE application/xml\nAddOutputFilterByType DEFLATE application/xhtml+xml\nAddOutputFilterByType DEFLATE application/rss+xml\nAddOutputFilterByType DEFLATE application/javascript\nAddOutputFilterByType DEFLATE application/x-javascript"
+        }
+    ]
+}
