@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 71,
+            "activePatchIndex": 78,
             "patches": [
                 {
                     "date": 1673920467638,
@@ -292,6 +292,34 @@
                 {
                     "date": 1674180745065,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3169,9 +3169,10 @@\n .form-control[readonly],\n fieldset[disabled] .form-control {\n     background-color: #eee;\n     opacity: 1\n-}.form-control[disabled],\n+}\n+.form-control[disabled],\n fieldset[disabled] .form-control {\n     cursor: not-allowed\n }\n \n"
+                },
+                {
+                    "date": 1674400961363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2295,9 +2295,9 @@\n     .col-sm-6,\n     .col-sm-7,\n     .col-sm-8,\n     .col-sm-9 {\n-        float: left\n+       \n     }\n     .col-sm-12 {\n         width: 100%\n     }\n"
+                },
+                {
+                    "date": 1674400967756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2295,9 +2295,9 @@\n     .col-sm-6,\n     .col-sm-7,\n     .col-sm-8,\n     .col-sm-9 {\n-       \n+        float: left\n     }\n     .col-sm-12 {\n         width: 100%\n     }\n"
+                },
+                {
+                    "date": 1674400978944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2315,11 +2315,9 @@\n     }\n     .col-sm-7 {\n         width: 58.33333333%\n     }\n-    .col-sm-6 {\n-        width: 50%\n-    }\n+    \n     .col-sm-5 {\n         width: 41.66666667%\n     }\n     .col-sm-4 {\n"
+                },
+                {
+                    "date": 1674401000960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2315,9 +2315,11 @@\n     }\n     .col-sm-7 {\n         width: 58.33333333%\n     }\n-    \n+    .col-sm-6 {\n+        width: 50%\n+    }\n     .col-sm-5 {\n         width: 41.66666667%\n     }\n     .col-sm-4 {\n"
+                },
+                {
+                    "date": 1674401022817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2041,9 +2041,9 @@\n .col-sm-2,\n .col-sm-3,\n .col-sm-4,\n .col-sm-5,\n-.col-sm-6,\n+\n .col-sm-7,\n .col-sm-8,\n .col-sm-9,\n .col-xs-1,\n"
+                },
+                {
+                    "date": 1674401032195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2041,9 +2041,9 @@\n .col-sm-2,\n .col-sm-3,\n .col-sm-4,\n .col-sm-5,\n-\n+.col-sm-6,\n .col-sm-7,\n .col-sm-8,\n .col-sm-9,\n .col-xs-1,\n"
+                },
+                {
+                    "date": 1674402585821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3567,9 +3567,9 @@\n     }\n     .form-inline .input-group .form-control,\n     .form-inline .input-group .input-group-addon,\n     .form-inline .input-group .input-group-btn {\n-        width: \n+        width: 1\n     }\n     .form-inline .input-group>.form-control {\n         width: 100%\n     }\n"
                 }
             ],
             "date": 1673920467637,
