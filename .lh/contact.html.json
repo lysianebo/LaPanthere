@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 38,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1673906175031,
@@ -160,6 +160,10 @@
                 {
                     "date": 1674217725623,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n <div class=\"bloc bgc-atomic-tangerine d-bloc\" id=\"bloc-8\">\n \t<div class=\"container bloc-sm\">\n \t\t<div class=\"row\">\n \t\t\t<p class=\"text-center white\">\n-\t\t\t\t\tAgence La Panthère \n+\t\t\t\t\tAgence La Panthère\n \t\t\t</p>\n \t\t\t<div class=\"row row-no-gutters social \">\n \t\t\t\t<div class=\"col-sm-3\">\n \t\t\t\t\t<div class=\"text-center\">\n"
+                },
+                {
+                    "date": 1674462136654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n </section>\n <!-- bloc-0 END -->\n \n <!-- bloc-6 -->\n-<se class=\"bloc bg-dots-bg bg-repeat bgc-atomic-tangerine-lighter d-bloc bloc-bg-texture texture-paper\" id=\"bloc-6\">\n+<section class=\"bloc bg-dots-bg bg-repeat bgc-atomic-tangerine-lighter d-bloc bloc-bg-texture texture-paper\" id=\"bloc-6\">\n \t<div class=\"container bloc-lg\">\n \t\t<div class=\"row\">\n \t\t\t<div class=\"col-sm-12 bgc-atomic-tangerine\">\n \t\t\t\t<h1 class=\"text-center hero-bloc-text tc-white\">\n"
                 }
             ],
             "date": 1673906175031,
