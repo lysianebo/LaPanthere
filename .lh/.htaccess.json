@@ -3,11 +3,47 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1674241644398,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674454660266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,5 +37,6 @@\n AddOutputFilterByType DEFLATE application/xml\n AddOutputFilterByType DEFLATE application/xhtml+xml\n AddOutputFilterByType DEFLATE application/rss+xml\n AddOutputFilterByType DEFLATE application/javascript\n-AddOutputFilterByType DEFLATE application/x-javascript\n\\ No newline at end of file\n+AddOutputFilterByType DEFLATE application/x-javascript\n+\n"
+                },
+                {
+                    "date": 1674454824313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,4 +39,25 @@\n AddOutputFilterByType DEFLATE application/rss+xml\n AddOutputFilterByType DEFLATE application/javascript\n AddOutputFilterByType DEFLATE application/x-javascript\n \n+## contrôle du cache navigateur - Expire headers\n+<IfModule mod_expires.c>\n+\tExpiresActive On\n+\tExpiresDefault \"access plus 7200 seconds\"\n+\tExpiresByType image/jpg \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/jpeg \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/png \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/gif \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/svg+xml\t\t\t\"access plus 1 week\"\n+\tAddType image/x-icon .ico\n+\tExpiresByType image/ico \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/icon \t\t\t\"access plus 1 week\"\n+\tExpiresByType image/x-icon \t\t\t\"access plus 1 week\"\n+\tExpiresByType text/css \t\t\t\t\"access plus 1 week\"\n+\tExpiresByType text/javascript \t\t\"access plus 1 week\"\n+\tExpiresByType text/html \t\t\t\"access plus 7200 seconds\"\n+\tExpiresByType application/xhtml+xml \t\"access plus 7200 seconds\"\n+\tExpiresByType application/javascript \t\"access plus 1 week\"\n+\tExpiresByType application/x-javascript \t\"access plus 1 week\"\n+\tExpiresByType application/x-shockwave-flash \"access plus 1 week\"\n+</IfModule>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674454839281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,9 @@\n \tExpiresByType image/jpg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/jpeg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/png \t\t\t\"access plus 1 week\"\n \tExpiresByType image/gif \t\t\t\"access plus 1 week\"\n+    \n \tExpiresByType image/svg+xml\t\t\t\"access plus 1 week\"\n \tAddType image/x-icon .ico\n \tExpiresByType image/ico \t\t\t\"access plus 1 week\"\n \tExpiresByType image/icon \t\t\t\"access plus 1 week\"\n"
+                },
+                {
+                    "date": 1674454846541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \tExpiresByType image/jpg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/jpeg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/png \t\t\t\"access plus 1 week\"\n \tExpiresByType image/gif \t\t\t\"access plus 1 week\"\n-    \n+    ExpiresByType image/a \t\t\t\"access plus 1 week\"\n \tExpiresByType image/svg+xml\t\t\t\"access plus 1 week\"\n \tAddType image/x-icon .ico\n \tExpiresByType image/ico \t\t\t\"access plus 1 week\"\n \tExpiresByType image/icon \t\t\t\"access plus 1 week\"\n"
+                },
+                {
+                    "date": 1674454879612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n \tExpiresByType image/jpg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/jpeg \t\t\t\"access plus 1 week\"\n \tExpiresByType image/png \t\t\t\"access plus 1 week\"\n \tExpiresByType image/gif \t\t\t\"access plus 1 week\"\n-    ExpiresByType image/a \t\t\t\"access plus 1 week\"\n+    ExpiresByType image/avif \t\t\t\"access plus 1 week\"\n \tExpiresByType image/svg+xml\t\t\t\"access plus 1 week\"\n \tAddType image/x-icon .ico\n \tExpiresByType image/ico \t\t\t\"access plus 1 week\"\n \tExpiresByType image/icon \t\t\t\"access plus 1 week\"\n@@ -60,5 +60,6 @@\n \tExpiresByType application/xhtml+xml \t\"access plus 7200 seconds\"\n \tExpiresByType application/javascript \t\"access plus 1 week\"\n \tExpiresByType application/x-javascript \t\"access plus 1 week\"\n \tExpiresByType application/x-shockwave-flash \"access plus 1 week\"\n-</IfModule>\n\\ No newline at end of file\n+</IfModule>\n+\n"
+                },
+                {
+                    "date": 1674454900668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,4 +62,23 @@\n \tExpiresByType application/x-javascript \t\"access plus 1 week\"\n \tExpiresByType application/x-shockwave-flash \"access plus 1 week\"\n </IfModule>\n \n+<IfModule mod_headers.c>\n+\n+<FilesMatch \"\\\\.(ico|jpe?g|png|gif|gif|swf)$\">\n+Header set Cache-Control \"max-age=2592000, public\"\n+</FilesMatch>\n+\n+<FilesMatch \"\\\\.(css)$\">\n+Header set Cache-Control \"max-age=604800, public\"\n+</FilesMatch>\n+\n+<FilesMatch \"\\\\.(js)$\">\n+Header set Cache-Control \"max-age=216000, private\"\n+</FilesMatch>\n+\n+<FilesMatch \"\\\\.(x?html?|php)$\">\n+Header set Cache-Control \"max-age=600, private, must-revalidate\"\n+</FilesMatch>\n+\n+</IfModule>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674454907499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n </IfModule>\n \n <IfModule mod_headers.c>\n \n-<FilesMatch \"\\\\.(ico|jpe?g|png|gif|gif|swf)$\">\n+<FilesMatch \"\\\\.(ico|jpe?g|png|gif|avif|swf)$\">\n Header set Cache-Control \"max-age=2592000, public\"\n </FilesMatch>\n \n <FilesMatch \"\\\\.(css)$\">\n"
+                },
+                {
+                    "date": 1674454977609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,5 +80,6 @@\n <FilesMatch \"\\\\.(x?html?|php)$\">\n Header set Cache-Control \"max-age=600, private, must-revalidate\"\n </FilesMatch>\n \n-</IfModule>\n\\ No newline at end of file\n+</IfModule>\n+\n"
+                },
+                {
+                    "date": 1674454989769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,4 +82,5 @@\n </FilesMatch>\n \n </IfModule>\n \n+Header unset Set-Cookie\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1674241644398,
