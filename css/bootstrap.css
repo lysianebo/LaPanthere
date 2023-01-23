@@ -2297,9 +2297,19 @@ pre code {
     .col-sm-9 {
         float: left
     }
+    .col-sm-6 {
+        width: 50%
+    }
+    .row, .col-sm-66{
+        width: 100%;
+        margin: auto;
+    }
+    
     .col-sm-12 {
         width: 100%
     }
+
+   
     .col-sm-11 {
         width: 91.66666667%
     }
@@ -7687,6 +7697,7 @@ button.close {
 .carousel-caption .btn {
     text-shadow: none
 }
+#bloc-8{margin-top: 60px}
 
 @media screen and (min-width:768px) {
     .carousel-control .glyphicon-chevron-left,

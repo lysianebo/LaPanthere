@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 78,
+            "activePatchIndex": 79,
             "patches": [
                 {
                     "date": 1673920467638,
@@ -320,6 +320,10 @@
                 {
                     "date": 1674402585821,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3567,9 +3567,9 @@\n     }\n     .form-inline .input-group .form-control,\n     .form-inline .input-group .input-group-addon,\n     .form-inline .input-group .input-group-btn {\n-        width: \n+        width: 1\n     }\n     .form-inline .input-group>.form-control {\n         width: 100%\n     }\n"
+                },
+                {
+                    "date": 1674477233887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2297,9 +2297,9 @@\n     .col-sm-9 {\n         float: left\n     }\n     .col-sm-6 {\n-        width: 0%\n+        width: 50%\n     }\n     \n     .col-sm-12 {\n         width: 100%\n"
                 }
             ],
             "date": 1673920467637,
