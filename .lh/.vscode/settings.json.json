@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1674405340255,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674580313140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n {\n-    \"livePreview.defaultPreviewPath\": \"/home/lysiane/Bureau/OpenclassRoom/PROJET 4/LaPanthère/index.html\"\n+    \"livePreview.defaultPreviewPath\": \"/home/lysiane/OpenclassRoom/PROJET 4/LaPanthère/index.html\"\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1674405340255,

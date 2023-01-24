@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1674168034246,
@@ -28,6 +28,10 @@
                 {
                     "date": 1674568697274,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,17 +187,5 @@\n         },\n         threshold: 0\n     })\n }\n-$(document).ready(function() {\n-    $(\"#scroll-hero\").click(function(t) {\n-        t.preventDefault(), $(\"html,body\").animate({\n-            scrollTop: $(\"#scroll-hero\").closest(\".bloc\").height()\n-        }, \"slow\")\n-    }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf(\"Safari\") && -1 == navigator.userAgent.indexOf(\"Chrome\") && $(\"#page-loading-blocs-notifaction\").remove()\n-}), $(window).load(function() {\n-    setFillScreenBlocHeight(), animateWhenVisible(), $(\"#page-loading-blocs-notifaction\").remove()\n-}).resize(function() {\n-    setFillScreenBlocHeight()\n-}), $(function() {\n-    $('[data-toggle=\"tooltip\"]').tooltip()\n-});\n\\ No newline at end of file\n+;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674580145957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -187,5 +187,17 @@\n         },\n         threshold: 0\n     })\n }\n-;\n\\ No newline at end of file\n+$(document).ready(function() {\n+    $(\"#scroll-hero\").click(function(t) {\n+        t.preventDefault(), $(\"html,body\").animate({\n+            scrollTop: $(\"#scroll-hero\").closest(\".bloc\").height()\n+        }, \"slow\")\n+    }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf(\"Safari\") && -1 == navigator.userAgent.indexOf(\"Chrome\") && $(\"#page-loading-blocs-notifaction\").remove()\n+}), $(window).load(function() {\n+    setFillScreenBlocHeight(), animateWhenVisible(), $(\"#page-loading-blocs-notifaction\").remove()\n+}).resize(function() {\n+    setFillScreenBlocHeight()\n+}), $(function() {\n+    $('[data-toggle=\"tooltip\"]').tooltip()\n+});\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1674168034246,
