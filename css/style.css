@@ -438,9 +438,10 @@ nav .caret {
     float: right;
 }
 
-.mg-md {
+.mg-md h3{
     margin: auto;
     width: 300px;
+  
 }
 
 .mg-lg {
@@ -579,15 +580,6 @@ a[data-lightbox]:hover img {
     margin: 0 auto;
 }
 
-.lightbox-caption {
-    padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: -10px;
-}
 
 .close-lightbox {
     color: #FFF;
@@ -637,9 +629,10 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .lightbox-caption {
-    padding: 0;
+    padding-top: 20px;
     color: rgba(0, 0, 0, .5);
     background: none;
+    text-align: center;
 }
 
 h1,
@@ -677,6 +670,8 @@ p {
 p.temoignage{
     font-style: italic;
     font-weight: 600;
+    width: 80%;
+    margin: auto;
 }
 .h1 {
     font-size: 20px;
@@ -701,15 +696,20 @@ h2 {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2em;
+}
+.text-width{
+    max-width: 330px;
     margin: auto;
-    max-width: 900px;
+  
+    
 }
 
-h3 {
+.mg ,h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+  
 }
 
 .med-width-whitespace {
