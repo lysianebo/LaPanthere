@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Première Agence Web Design à Lyon Contact</title>
     
@@ -46,17 +46,16 @@
 	<!-- bloc-6 -->
 	<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine-lighter d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-sm-12 bgc-atomic-tangerine">
-					<h1 class="text-center hero-bloc-text tc-white">
+			<div class="col-sm-12 bgc-atomic-tangerine">
+				<h1 class="text-center hero-bloc-text tc-white">
 						Parlons web design !
-					</h1>
-					<p class="text-center mg-lg tc-white tight-width-whitespace">
+				</h1>
+				<p class="text-center mg-lg tc-white tight-width-whitespace">
 						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-					</p>
-				</div>
+				</p>
 			</div>
+			
 		</div>
 	</section>
 	<!-- bloc-6 END -->
@@ -89,12 +88,15 @@
 							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div>
 						<div class="text-center"> 
-						<button class="bloc-button btnbtn-clean btn-rd cta-hero btn-atomic-tangerine" type="submit">
+							<button class="bloc-button btnbtn-clean btn-rd cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
-						</button>
-					</div>
+							</button>
+						</div>
 					</form>
 				</div>
+			</div>
+		</div>
+	</section>
 	<!-- Footer - bloc-8 -->
 	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 		<div class="container bloc-sm">
@@ -120,19 +122,20 @@
 	<!-- Principal conteneur END -->
 
 	<!-- Scripts -->
+	<script src="js/jquery-2.1.0.js"></script>
+	<script async src="js/bootstrap.min.js"></script>
+	<script async src="js/blocs.min.js"></script>
+	<script async src="js/jquery.touchSwipe.min.js"></script>
 
-
-	<script defer src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
-	<script defer src="js/blocs.min.js"></script>
-	<script defer src="js/jquery.touchSwipe.min.js"></script>
-	<script defer src="js/bootstrap.min.js"></script>
-	<!-- Google tag (gtag.js) -->
-	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-9624825-3" SameSite=None></script>
+  <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9624825-3"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-9624825-3');
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag() { dataLayer.push(arguments); }
+	  gtag('js', new Date());
+	  gtag('config', 'UA-9624825-3');
 	</script>
+  <!-- fin de la balise Google -->
+  <!-- Fin des Scripts -->
 </body>
 </html>
