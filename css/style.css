@@ -532,6 +532,13 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
 }
 
 a[data-lightbox] {
@@ -857,9 +864,9 @@ h4 {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
-        background-attachment: scroll;
-    }
-}
+        background-attachment: scroll;}
+        }
+
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -1029,6 +1036,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    form{
+        margin: 15px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1037,5 +1047,6 @@ h4 {
         padding-right: 0;
     }
 }
+
 
 
